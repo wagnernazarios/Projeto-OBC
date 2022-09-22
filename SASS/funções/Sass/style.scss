@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+// .title{
+//     // color: mix(#ff4043,  #157bad, 50%);
+//     // color: mix(yellow,  red, 70%);
+
+
+
+// }
+
+@function color-title($background-color){
+    @if(lightness($background-color) > 50){
+        @return #000;
+    } @else{
+        @return #fff
+    }
+}
+
+@mixin background-color-mixin($color) {
+    background-color: $color;
+    color: color-title($color);
+}
+
+.container{
+    @include background-color-mixin(#157bad);
+    height:100vh;
+}

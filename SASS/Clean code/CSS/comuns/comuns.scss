@@ -1,0 +1,39 @@
+.title {
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.anchor {
+    text-decoration: none;
+    font-weight: bold;
+    .btn {
+        width: 90px;
+        background-color: $btn-bg;
+        padding: 10px 15px;
+        color: $color1;
+        margin-top: 10px;
+        display: block;
+        border: none;
+        border-radius: 5px;
+        transition: 0.5s ;
+        border: 2px solid transparent;
+        cursor: pointer;
+        &:hover{
+            background-color: $color1;
+            color: $btn-bg;
+            border: 2px solid $btn-bg;
+        }
+    }
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@mixin text-style($color, $font-size, $font-family, $font-weight) {
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+    font-weight: $font-weight;
+}

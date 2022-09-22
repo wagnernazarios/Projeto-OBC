@@ -1,0 +1,3 @@
+.link{
+    @include text-style($primary-color, 20px, Helvetica, bold) 
+}

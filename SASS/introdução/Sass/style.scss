@@ -1,0 +1,65 @@
+// // -------Import-------
+
+// @import "colors/color.scss";
+
+
+// // -----Mixin----
+
+// @mixin  text-style($color, $font-size, $font-family){
+//     color: $color;
+//     font-size: $font-size;
+//     font-family: $font-family;
+// }
+
+
+// //-----Variaveis-------
+
+// $red: $primary-color;
+// $blue: #157bad;
+
+
+
+// .text{
+//     h1{
+//         @include text-style($primary-color, 34px, Arial)
+//     }
+
+//     p{
+//         @include text-style($blue, 22px, HeLvetica)
+
+//     }
+// }
+
+
+.btn{
+    width: 125px;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 10px;
+
+
+    &.btn-roxo{
+        background-color: purple;
+        color: white;
+    }
+
+    &.btn-amarelo{
+        background-color: yellow;
+        color: black;
+    }
+  
+}
+
+.btn-azul{
+    @extend .btn;
+    background-color: #157bad;
+    color: white;
+
+}
+    
+
+
+
+
+

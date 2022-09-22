@@ -1,0 +1,7 @@
+.title{font-size:44px;font-family:Arial,Helvetica,sans-serif}.anchor{text-decoration:none;font-weight:bold}.anchor .btn{width:90px;background-color:#157bad;padding:10px 15px;color:#fff;margin-top:10px;display:block;border:none;border-radius:5px;transition:.5s;border:2px solid rgba(0,0,0,0);cursor:pointer}.anchor .btn:hover{background-color:#fff;color:#157bad;border:2px solid #157bad}p{font-size:20px;font-family:Arial,Helvetica,sans-serif}.link{color:#ff4043;font-size:20px;font-family:Helvetica;font-weight:bold}.link{color:#ff4043;font-size:20px;font-family:Helvetica;font-weight:bold}/*# sourceMappingURL=style.css.map */
+
+
+/* 
+Para fazer minify:
+sass Sass/style.scss:CSS/style.css --style compressed */
+
