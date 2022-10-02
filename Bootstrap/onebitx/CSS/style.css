@@ -12,17 +12,19 @@
 body {
   width: 100%;
   min-height: 100vh;
-  background-image: url('/onebitx/Imagens/backgroundLp.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
+
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 
-
+ .container-fluid2{
+  background-image: url('/onebitx/Imagens/backgroundLp.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
 main .container-fluid, main .container-sm, main .container-md, main .container-lg, main .container-xl, main .container-xxl {
   margin-top: 40px;
   padding: 15px;

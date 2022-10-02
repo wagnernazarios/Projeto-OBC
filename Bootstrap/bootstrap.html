@@ -1,25 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js" defer></script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Bootstrap</title>
 
-    
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"
+        defer></script>
+
+
+    <style>
+        .scrool {
+            height: 450px;
+            overflow: auto;
+            color: #fff;
+            position: relative;
+        }  
+    </style>
 
 </head>
 
 <body onload="msg()">
 
-
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg sticky-top nav navbar-dark bg-dark">
         <div class="container-fluid">
             <div class="navbar-header col-md-3 align-text-top">
@@ -60,7 +71,7 @@
 
 
 
-
+        <!-- butao -->
     <div class="container-fluid">
         <br>
         <br>
@@ -76,7 +87,7 @@
     <br>
     <br>
     <hr>
-
+    <!-- card -->
     <div class="card mx-3" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -93,6 +104,7 @@
     <br>
     <hr>
 
+    <!-- grid -->
     <div class="container bg-dark pt-3">
         <div class="row">
             <div class="col-md text-center ">
@@ -115,7 +127,7 @@
     <hr>
 
 
-
+        <!-- icon -->
     <div class="container">
         <button type="button" class="btn btn-outline-danger">
             <i class="bi bi-instagram"></i> instagram
@@ -124,6 +136,8 @@
     </div>
 
     <hr>
+    
+    <!-- alertas -->
     <div class="container mt-5 text-center">
         <div class="alert alert-primary" role="alert">
             A simple primary alert—check it out!
@@ -133,34 +147,221 @@
         <button type="button" class="btn btn-primary mt-5" id="liveAlertBtn">Sim!</button>
     </div>
 
-
+    
     <div class="alert alert-warning alert-dismissible fade show text-center mt-5" role="alert">
         <strong>Não clique no X</strong> ou eu vou sumir.
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 
+        <!-- carrousel -->
+    <div class="container crs">
+        <div id="carouselExampleInterval" class="carousel slide mt-5 mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="praia2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="praia3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="praia4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next </span>
+            </button>
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="praia2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="praia3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="praia4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- scroolspy -->
+        <hr>
+        <div class="container bg-dark">
+
+            <div class="row">
+                <div class="col-3">
+                    <nav id="navbar-example3"
+                        class="navbar navbar-light bg-light flex-column align-items-stretch p-3 mt-3">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link" href="#item-1">Item 1</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                                <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                            </nav>
+                            <a class="nav-link" href="#item-2">Item 2</a>
+                            <a class="nav-link" href="#item-3">Item 3</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                                <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                            </nav>
+                        </nav>
+                    </nav>
+                </div>
+                <div class="col">
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0"
+                        class="scrool">
+                        <h4 id="item-1">Item 1</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, minima! Voluptatibus,
+                            consectetur cupiditate! Ratione quia amet voluptatum sequi in. Atque nam odit facere neque
+                            eveniet error amet, corporis in ex maxime? Odio porro debitis sunt officiis ab ut, minus
+                            quisquam. Mollitia exercitationem, obcaecati hic sint corrupti quos sit beatae velit.</p>
+                        <h5 id="item-1-1">Item 1-1</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima iure minus tenetur
+                            quibusdam, hic, doloremque consequatur eum quam ad recusandae ducimus molestiae. Id quis
+                            esse magnam cumque facilis accusantium nulla dignissimos accusamus nobis commodi. Incidunt
+                            dolores iure odio quibusdam, blanditiis nesciunt provident sed. Adipisci cumque quos sed
+                            temporibus velit libero vel harum eveniet et optio, quae nisi asperiores ad?</p>
+                        <h5 id="item-1-2">Item 1-2</h5>
+                        <p> </p>
+                        <h4 id="item-2">Item 2</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima iure minus tenetur
+                            quibusdam, hic, doloremque consequatur eum quam ad recusandae ducimus molestiae. Id quis
+                            esse magnam cumque facilis accusantium nulla dignissimos accusamus nobis commodi. Incidunt
+                            dolores iure odio quibusdam, blanditiis nesciunt provident sed. Adipisci cumque quos sed
+                            temporibus velit libero vel harum eveniet et optio, quae nisi asperiores ad?</p>
+                        <h4 id="item-3">Item 3</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima iure minus tenetur
+                            quibusdam, hic, doloremque consequatur eum quam ad recusandae ducimus molestiae. Id quis
+                            esse magnam cumque facilis accusantium nulla dignissimos accusamus nobis commodi. Incidunt
+                            dolores iure odio quibusdam, blanditiis nesciunt provident sed. Adipisci cumque quos sed
+                            temporibus velit libero vel harum eveniet et optio, quae nisi asperiores ad?</p>
+                        <h5 id="item-3-1">Item 3-1</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima iure minus tenetur
+                            quibusdam, hic, doloremque consequatur eum quam ad recusandae ducimus molestiae. Id quis
+                            esse magnam cumque facilis accusantium nulla dignissimos accusamus nobis commodi. Incidunt
+                            dolores iure odio quibusdam, blanditiis nesciunt provident sed. Adipisci cumque quos sed
+                            temporibus velit libero vel harum eveniet et optio, quae nisi asperiores ad?</p>
+                        <h5 id="item-3-2">Item 3-2</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima iure minus tenetur
+                            quibusdam, hic, doloremque consequatur eum quam ad recusandae ducimus molestiae. Id quis
+                            esse magnam cumque facilis accusantium nulla dignissimos accusamus nobis commodi. Incidunt
+                            dolores iure odio quibusdam, blanditiis nesciunt provident sed. Adipisci cumque quos sed
+                            temporibus velit libero vel harum eveniet et optio, quae nisi asperiores ad?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- offcanvas -->
+
+        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            Link with href
+        </a>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Button with data-bs-target
+        </button>
+                      
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                </div>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
 
 
-    <script>   const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 
-        const alert = (message, type) => {
-            const wrapper = document.createElement('div')
-            wrapper.innerHTML = [
-                `<div class="alert alert-${type} alert-dismissible" role="alert">`,
-                `   <div>${message}</div>`,
-                '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
-                '</div>'
-            ].join('')
 
-            alertPlaceholder.append(wrapper)
-        }
 
-        const alertTrigger = document.getElementById('liveAlertBtn')
-        if (alertTrigger) {
-            alertTrigger.addEventListener('click', () => {
-                alert('Muito bem Programador!', 'danger')
+
+
+
+
+
+
+        <script>   const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+            const alert = (message, type) => {
+                const wrapper = document.createElement('div')
+                wrapper.innerHTML = [
+                    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+                    `   <div>${message}</div>`,
+                    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+                    '</div>'
+                ].join('')
+
+                alertPlaceholder.append(wrapper)
+            }
+
+            const alertTrigger = document.getElementById('liveAlertBtn')
+            if (alertTrigger) {
+                alertTrigger.addEventListener('click', () => {
+                    alert('Muito bem Programador!', 'danger')
+                })
+
+
+            }
+
+
+            var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+                target: '#navbar-example'
             })
-        }</script>
+
+
+        </script>
 </body>
 
 </html>
