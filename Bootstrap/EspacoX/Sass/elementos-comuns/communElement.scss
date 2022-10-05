@@ -1,0 +1,119 @@
+@import 'variables.scss';
+
+.container00 {
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .header {
+        font-size: 12px;
+        font-weight: bold;
+
+        #nav-item {
+            text-transform: uppercase;
+
+            &:hover {
+                color: $link-hover;
+            }
+        }
+
+        .logoPC {
+            width: 250px;
+            margin-left: -10px;
+            margin-right: 60px;
+        }
+    }
+
+    .arrow-down {
+        display: inline-block;
+        width: 90px;
+        margin-top: 5px;
+    }
+}
+
+footer {
+    background: #292929;
+    height: 20vh;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: $texto;
+
+        &:hover {
+            color: $link-hover;
+        }
+    }
+
+    .copy {
+        color: $copy-color;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .container00 {
+        min-width: 100%;
+        min-height: 100vh;
+
+        .header {
+            .logoPC {
+                width: 160px;
+                margin-top: 15px;
+                margin-right: 20px;
+            }
+        }
+
+    .download-desc{
+        padding: 5% 0;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        font-size: 15px;
+
+        #button{
+            font-size: 10px;
+            width: 100px;
+            height: auto;
+            display: inline-block;
+        }
+    }
+
+
+    }
+
+    footer {
+        font-size: 10px;
+        height: 10vh;
+        text-align: center;
+
+    }
+
+
+
+}
+
+@media (min-width: 300px) and (max-width: 325px) {
+    .container00 {
+        min-width: 100%;
+
+
+        .header {
+            .logoPC {
+                width: 120px;
+                margin-top: 15px;
+            }
+
+        }
+    }
+
+}

@@ -1,0 +1,52 @@
+.container00 {
+    &.container01 {
+        background-image: url('/imagens/home/01.jpg');
+    }
+
+    &.container02 {
+        background-image: url('/imagens/home/03.jpg');
+    }
+
+    &.container03 {
+        background-image: url('/imagens/home/02.gif');
+    }
+
+    &.container04 {
+        background-image: url('/imagens/home/04.jpg');
+    }
+
+    .title-padding {
+        padding-top: 300px;
+    }
+
+    .short-title {
+        padding-top: 30px;
+        width: 550px;
+        margin-bottom: 25px;
+    }
+
+    .medium-title {
+        width: 650px;
+        margin-bottom: 25px;
+    }
+
+    #button {
+        padding: $padding-button;
+        display: inline-block;
+        border: 2px solid $texto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container00{
+        width: 100%;
+        .title-padding {
+            padding-top: 300px;
+        }
+        .short-title, .medium-title {
+            width: auto;
+            font-size: 30px;
+        }
+    }
+}
