@@ -10,9 +10,10 @@ link: https://wagnernazarios.github.io/Projeto-OBC/CSS%20(flexbox-grid)/grid/pro
 
 #### OnebitX
 
+*Bug no bg*
 https://wagnernazarios.github.io/Projeto-OBC//Bootstrap/onebitx/index.html
 
 #### Espaço X
 Site inspirado na pagina do SpaceX
 
-https://espacox-001.netlify.app/
+https://espacox.netlify.app/
