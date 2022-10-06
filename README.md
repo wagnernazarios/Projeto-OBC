@@ -10,7 +10,7 @@ link: https://wagnernazarios.github.io/Projeto-OBC/CSS%20(flexbox-grid)/grid/pro
 
 #### OnebitX
 
-*Bug no bg*
+##### *Bug no bg*
 https://wagnernazarios.github.io/Projeto-OBC//Bootstrap/onebitx/index.html
 
 #### Espaço X
