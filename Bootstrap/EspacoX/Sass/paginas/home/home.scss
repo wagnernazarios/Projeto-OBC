@@ -42,11 +42,18 @@
     .container00{
         width: 100%;
         .title-padding {
-            padding-top: 300px;
+            padding-top: 280px;
         }
         .short-title, .medium-title {
             width: auto;
             font-size: 30px;
+            margin-bottom: -20px;
+        }            
+
+    }
+    .container02{
+        .title-padding{
+            padding-top: 200px;
         }
     }
 }

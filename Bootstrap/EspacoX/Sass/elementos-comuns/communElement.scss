@@ -5,6 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: -5px auto;
 
 
     .header {
@@ -56,6 +57,35 @@ footer {
     }
 
 }
+
+.download-desc {
+    background-color: #000;
+    height: 80vh;
+    padding-top: 200px;
+
+ 
+}
+
+.email-obc{
+    text-decoration: none;
+    color: $copy-color;
+
+    &:hover {
+        color: $link-hover;
+    }
+}
+
+#button {
+    border: 2px solid $texto;
+    margin-right: 10px;
+    color: $link-hover;
+}
+
+footer{
+    margin-top: -5px;
+    font-size: 22px;
+}
+
 
 @media (min-width: 320px) and (max-width: 425px) {
     .container00 {
