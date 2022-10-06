@@ -15,5 +15,4 @@ https://wagnernazarios.github.io/Projeto-OBC//Bootstrap/onebitx/index.html
 #### Espaço X
 Site inspirado na pagina do SpaceX
 
-https://wagnernazarios.github.io/Projeto-OBC//bootstrap/EspacoX/index.html
-
+https://espacox-001.netlify.app/
