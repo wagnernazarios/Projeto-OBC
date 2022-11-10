@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+}
+
+body{
+    min-width: 98%;
+}
+h1{
+    text-align: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+
+    label {
+        font-weight: bold;
+    }
+}
+
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+
+#gameBoard {
+    background-color: #232323;
+    display:grid;
+    grid-template-columns: 6rem 6rem 6rem ;
+    grid-template-rows: 6rem 6rem 6rem ;
+    gap: .5em;
+    
+
+}
