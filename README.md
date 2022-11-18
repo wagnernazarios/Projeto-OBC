@@ -17,3 +17,8 @@ https://wagnernazarios.github.io/Projeto-OBC//Bootstrap/onebitx/index.html
 Site inspirado na pagina do SpaceX
 
 https://espacox.netlify.app/
+
+#### Calculadora
+Calculadora que criei no modulo de DOM do curso
+
+https://calculatordomjs.netlify.app/
