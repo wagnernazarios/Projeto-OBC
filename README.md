@@ -27,5 +27,4 @@ https://calculatordomjs.netlify.app/
 Jogo da velha que desenvolvi no modulo DOM do curso
 Eu me enrolei varias vezes mas consegui.
 
-
-https://jogavvelha.netlify.app/
+https://wagnernazarios.github.io/Projeto-OBC/JS/jogo-da-velha/index.html
