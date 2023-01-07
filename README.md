@@ -22,3 +22,9 @@ https://espacox.netlify.app/
 Calculadora que criei no modulo de DOM do curso
 
 https://calculatordomjs.netlify.app/
+
+#### Jogo da Velha (tic tac toe)
+Jogo da velha que desenvolvi no modulo DOM do curso
+Eu me enrolei varias vezes mas consegui.
+
+https://wagnernazarios.github.io/Projeto-OBC/JS/jogo-da-velha/index.html
